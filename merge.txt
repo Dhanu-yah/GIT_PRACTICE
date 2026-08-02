@@ -1,1 +1,1 @@
-"hello i am in master now"
+"hello i am in conflict  now"
