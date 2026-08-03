@@ -1,0 +1,13 @@
+name: My second ci/cd pipeline
+
+on:
+  push:
+    branches:
+     - master
+jobs:
+  hello-job:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: PRINT MESSEGE
+        run: echo "HEY DHANUSH THIS IS UR SECOND COMMIT FILE"
