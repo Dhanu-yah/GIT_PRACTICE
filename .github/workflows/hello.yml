@@ -7,6 +7,6 @@ jobs:
   Hello-job:
     runs-on:ubuntu-latest
 
-  steps:
-    -name:Print messege
-  run:echo "HELLO DHANUSH! WELCOME TO GITHUB ACTIONS."
+    steps:
+      -name:Print messege
+       run:echo "HELLO DHANUSH! WELCOME TO GITHUB ACTIONS."
