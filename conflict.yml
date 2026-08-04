@@ -1,0 +1,13 @@
+name: CONFLICT COMMIT
+on:
+  push:
+    branches:
+    - conflict
+job:
+  hello-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "CONFLICT COMMIT"
+        run: echo "WELCOME DHANUSH THIS COMMIT IS FROM CONFLICT BRANCH"
+
