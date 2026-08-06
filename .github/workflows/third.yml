@@ -1,4 +1,4 @@
-name= Third pipeline
+name: Third pipeline
 on:
   push:
     branches:
