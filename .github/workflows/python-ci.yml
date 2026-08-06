@@ -1,0 +1,23 @@
+name: PYTHON INSTALLATION
+on:
+  push:
+    branches:
+    - conflict
+jobs:
+  python-job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout repository
+      uses: actions/checkout@v4
+
+    - name: setup python
+      uses: actions/setup-python@v5
+      with: 
+       python-version: "3.13"
+
+    - name: checkout python version
+      run: python --verson
+
+    - name: Run python programm
+      run: python python.py
