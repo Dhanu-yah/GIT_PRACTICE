@@ -2,7 +2,7 @@ name: RUNNING PYTHON PROGRAM
 on:
   push:
     branches:
-    - master
+    - conflict
 
 jobs:
   python-job:
